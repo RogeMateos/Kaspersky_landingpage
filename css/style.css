@@ -1,0 +1,60 @@
+
+/* header */
+#site-header {}
+#site-header #logo { margin:10px 0px;display:block; }
+#site-header p { font-size:32px;color:#007360;font-weight:700;margin-top:5px; }
+/* footer */
+#site-footer { background:#5a6f79;color:#fff;padding:10px 0px; }
+#site-footer p { color:#d6dfe3; }
+#site-footer p strong { color:#fff;display:block; }
+#site-footer ul { list-style:none;padding:20px 0px;margin:0px; }
+#site-footer ul li { display:inline-block;border-left:solid 1px #b6c3ca;padding:0px 10px; }
+#site-footer ul li:first-child { border:0px; }
+#site-footer ul li a { color:#fff; }
+#site-footer ol { list-style:none;padding:15px 0px;text-align:right;margin:0px; }
+#site-footer ol li { display:inline-block;width:36px;height:36px;margin:0px 0px 0px 5px;vertical-align:top; }
+#site-footer ol li a { display:block;background:url(../images/social.png) no-repeat;width:36px;height:36px; }
+#site-footer ol li a.facebook { background-position:0px 0px; }
+#site-footer ol li a.google { background-position:-44px 0px; }
+#site-footer ol li a.twitter { background-position:-88px 0px; }
+#site-footer ol li a.youtube { background-position:-132px 0px; }
+#site-footer ol li a.linkedin { background-position:100% 100%; }
+#sldr img { width:100%;height:auto;margin-bottom:20px; }
+/* Item */
+.item h6 { font-size:16px;color:#3c3c3c;height:60px; }
+.item h6 span { color:#0a098c; }
+.item h4 { padding:0px 0px 0px 68px;margin:0px 0px 20px;color:#009179;font-size:18px;background:url(../images/antivirus.png) left top no-repeat; }
+.item h4 span { font-size:26px;display:block; }
+.item h3 { font-size:15px;text-align:center;margin:0px;background:#0a098c;height:34px;line-height:34px;color:#fff;margin-bottom:20px; }
+.item ol { list-style:none;padding:0px;border-bottom:solid 3px #6c7073;margin-bottom:30px; }
+.item ol li { position:relative;padding-left:40px;color:#1d1d1d;font-size:16px;min-height:30px;margin-bottom:20px; }
+.item ol li.prote { background:url(../images/prote.png) left top no-repeat; }
+.item ol li.scan { background:url(../images/scan.png) left top no-repeat; }
+.item ol li.aggi { background:url(../images/aggi.png) left top no-repeat; }
+.item ol li.trans { background:url(../images/trans.png) left top no-repeat; }
+.item ol li.parent { background:url(../images/parent.png) left top no-repeat; }
+.item ol li.control { background:url(../images/control.png) left top no-repeat; }
+.item ol li.wifi { background:url(../images/wifi.png) left top no-repeat; }
+.item ol li.device { background:url(../images/device.png) left top no-repeat; }
+.item ol li { background:url(../images/prote.png) left top no-repeat; }
+.item .img { display:block;position:relative; max-width:100%;margin:0px auto 20px; }
+.item .img img { max-width:100%;height:auto;display:block;margin:0px auto; }
+.item .img span { display:block;width:99px;height:100px;line-height:100px;text-align:center;font-size:36px;color:#ffffff;background:url(../images/circle.png) no-repeat;position:absolute;bottom:10px;left:50%;margin-left:20px; }
+.item ul.price { list-style:none;padding:0px; }
+.item ul.price li { position:relative;border-top:solid 3px #3a3a3a;padding:0px 120px 5px 75px; }
+.item ul.price li:first-child { border:0px; }
+.item ul.price li span { position:absolute;top:10px;left:0px;font-size:16px;color:#1d1d1d;font-weight:700; }
+.item ul.price li u { font-size:14px;color:#1d1d1d;text-decoration:line-through; }
+.item ul.price li small { display:block;font-size:20px;color:#00a88e;line-height:16px; }
+.item ul.price li a { position:absolute;top:10px;right:0px;background:url(../images/acq.png) no-repeat;width:115px;height:27px;display:block; }
+.item.multi-device h4 { background:url(../images/multi-device.png) left top no-repeat; }
+.item.multi-device h6 span { color:#e30613; }
+.item.multi-device h3 { background:#e30613; }
+.item.security h4 { background:url(../images/int-security.png) left top no-repeat; }
+.item.security h3 { background:#97187d; }
+.item.security h6 span { color:#97187d; }
+
+@media only screen and ( min-width: 768px ) and ( max-width:1200px ) {
+	.item h4 { margin-bottom:49px; }
+	.item.security h4, .item.multi-device h4 { margin-bottom:20px; } 
+}
